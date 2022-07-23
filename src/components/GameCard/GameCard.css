@@ -1,0 +1,66 @@
+.gameCard{
+    border-radius: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 1rem;
+}
+
+.gameImages{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.gameImages>img:nth-child(1){
+    width: 100%;
+}
+
+.gameImages>img:nth-child(2){
+    width: 6rem;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -3rem;
+    box-shadow: var(--profileShadow);
+}
+
+.gameName{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+    gap: 10px;
+}
+
+.gameName>span:nth-child(1){
+    font-weight: bold;
+}
+
+.gameStatus{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+}
+
+.gameStatus>hr{
+    width: 85%;
+    border: 1px solid var(--hrColor);
+}
+
+.gameStatus > div{
+    display: flex;
+    gap: 1rem;
+    width: 80%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bets{
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
